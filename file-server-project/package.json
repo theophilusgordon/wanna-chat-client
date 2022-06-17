@@ -1,0 +1,35 @@
+{
+  "name": "file-server-project",
+  "version": "1.0.0",
+  "description": "A file server app that allows users to sign up and log in and download files and admin to login and upload files ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordontheophilus/file-server-project.git"
+  },
+  "author": "Theophilus Gordon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gordontheophilus/file-server-project/issues"
+  },
+  "homepage": "https://github.com/gordontheophilus/file-server-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "http-proxy-middleware": "^2.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.6"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16"
+  }
+}

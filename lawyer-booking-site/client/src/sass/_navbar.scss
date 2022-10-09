@@ -1,0 +1,13 @@
+@use './variables' as *;
+
+.contact {
+  height: 2rem;
+  background-color: $primary-color;
+  color: $white;
+  font-size: 1rem;
+}
+
+header {
+  position: relative;
+  z-index: 5;
+}

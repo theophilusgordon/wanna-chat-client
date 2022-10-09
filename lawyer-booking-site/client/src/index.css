@@ -1,0 +1,96 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+
+.form-page {
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(29, 41, 81, 0.5), rgba(29, 41, 81, 0.1));
+}
+
+.login-form {
+  width: 60%;
+  margin-inline: auto;
+}
+
+.contact {
+  height: 2rem;
+  background-color: #1D2951;
+  color: #F0FFFF;
+  font-size: 1rem;
+}
+
+header {
+  position: relative;
+  z-index: 5;
+}
+
+.home {
+  background-image: url("./images/Hero_Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 3;
+}
+
+.hero {
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 90vh;
+  width: 100%;
+  background-color: rgba(29, 41, 81, 0.5);
+  z-index: -1;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-content p:first-child {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.hero-content h3 {
+  font-size: 1.5rem;
+}
+.hero-content p {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+h1 {
+  width: 60%;
+}
+
+.hero-text {
+  width: 40%;
+  font-size: 1rem;
+}
+
+.service {
+  background-color: #1D2951;
+  padding: 1rem;
+  border-top: 0.5rem solid #795C34;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}

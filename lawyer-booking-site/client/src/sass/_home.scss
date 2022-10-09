@@ -1,0 +1,63 @@
+@use './variables' as *;
+
+.home {
+  background-image: url('./images/Hero_Background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 3;
+}
+
+.hero {
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 90vh;
+  width: 100%;
+  background-color: rgb(29, 41, 81, 0.5);
+  z-index: -1;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    &:first-child {
+      font-size: .9rem;
+      font-weight: bold;
+    }
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1;
+  }
+}
+
+h1 {
+  width: 60%;
+}
+
+.hero-text {
+  width: 40%;
+  font-size: 1rem;
+}
+
+.service {
+  background-color: $primary-color;
+  padding: 1rem;
+  border-top: .5rem solid $brown;
+}
